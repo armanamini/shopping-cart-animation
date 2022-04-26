@@ -1,0 +1,20 @@
+.container{
+    width: 100%;
+}
+@media (max-width: 1320px) {
+    .container{
+     padding: 0 20px;
+    }
+}
+@media (max-width: 1210px) {
+    .container{
+     padding: 0 10px;
+     margin-left: -60px;
+    }
+}
+@media (max-width: 1040px) {
+    .container{
+     padding: 0 50px;
+     margin-left: 10px 10px;
+    }
+}

@@ -1,0 +1,116 @@
+.container {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+}
+.container h1 {
+  font-size: 50px;
+  color: white;
+  position: relative;
+  right: 37%;
+  margin-top: 100px;
+}
+.allItems {
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.productContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-left: -50px;
+}
+.showMeMore {
+  position: relative;
+  cursor: pointer;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  margin-right: 100px;
+}
+.moreItemsTitle{
+  color:#0B7171;
+  font-size:35px;
+}
+
+.closeSvg svg {
+  cursor: pointer;
+
+  fill: #fff;
+  stroke: #fff;
+}
+.Opensvg svg {
+  cursor: pointer;
+
+  fill: #fff;
+  stroke: #fff;
+}
+
+.MoreItemsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -250px;
+  width: 100%;
+  margin-left: 100px;
+}
+@media (max-width: 1300px){
+
+.productContainer{
+  margin-left: 1px;
+}
+
+}
+@media (max-width: 1040px) {
+  .allItems {
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .productContainer {
+    margin-top: 50px;
+  }
+  .MoreItemsContainer {
+    margin-top: 100px;
+    position: relative;
+    right: 25%;
+  }
+  .ItemsTitle{
+    margin-left: 50%;
+   
+  }
+
+}
+@media (max-width: 890px) {
+  .productContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+    position: relative;
+  }
+  .MoreItemsContainer {
+    position: relative;
+    right: 15%;
+  }
+  .ItemsTitle{
+    margin-left: 50%;
+    margin-top: 80px;
+  }
+  .moreItemsTitle{
+    margin-left: 50%;
+    
+  }
+}

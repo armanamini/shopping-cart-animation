@@ -1,0 +1,38 @@
+[{
+    "id": 1,
+    "title": "Lotus Jar",
+    "price": "29.99",
+    "img": "/static/media/JAR.f55b17cea4d1113cd5a3.png",
+    "description":
+      "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem."
+  },
+  {
+    "id": 2,
+    "title": "Lotus Mi",
+    "price": "39.99",
+    "img": "/static/media/JAR.f55b17cea4d1113cd5a3.png",
+    "description":
+      "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem."
+  },
+  {
+    "id": 3,
+    "title": "Apple Fruit",
+    "price": "9.99",
+    "img": "/static/media/applePicture.2543d0db62a69f3c388e.jpg",
+    "description": "Original Taste"
+  },
+  {
+    "id": 4,
+    "title": "Triple Fruit",
+    "price": "10.00",
+    "img":"/static/media/tripple.7f01d73da2b554846986.jpg",
+    "description": "Original Taste"
+  },
+  {
+    "id": 5,
+    "title": "Grape",
+    "price": "10.00",
+    "img": "/static/media/grapeFruit.94c6f5f40847f2ea7d92.jpg",
+    "description": "Original Taste"
+  }
+]
